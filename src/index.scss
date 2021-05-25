@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-family: Roboto, -apple-system, system-ui, sans-serif;
+  user-select: none;
+  max-width: 100vh;
+  max-height: 70vh;
+
+  /* полоса прокрутки (скроллбар) */
+  ::-webkit-scrollbar {
+    width: 1vw; /* ширина для вертикального скролла */
+    height: 1vh; /* высота для горизонтального скролла */
+    background-color: #d2c142;
+  }
+
+  /* ползунок скроллбара */
+  ::-webkit-scrollbar-thumb {
+    background-color: #2f89d4;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #253861;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: #d7cece;
+}

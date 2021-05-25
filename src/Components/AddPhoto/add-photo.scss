@@ -1,0 +1,34 @@
+.add-photo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    width: 15vh;
+    height: 15vh;
+    background-color: #dfdff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    &:hover{
+      background-color: #d1d1f3;
+    }
+
+    img {
+      display: block;
+      width: 10vh;
+      height: 10vh;
+      cursor: pointer;
+
+      &:hover {
+        width: 10.3vh;
+        height: 10.3vh;
+      }
+    }
+  }
+}
